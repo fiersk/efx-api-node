@@ -14,7 +14,7 @@ Copyright Will Harborne (Ethfinex) 2017
 contract WrapperLockUsd is BasicToken, Ownable {
     using SafeMath for uint256;
 
-    address public TRANSFER_PROXY;
+    address public TRANSFER_PROXY = 0x08649db4E3fe7e394d080cE70983C281B41B6E7E
     mapping (address => bool) private isSigner;
 
     string public name;
